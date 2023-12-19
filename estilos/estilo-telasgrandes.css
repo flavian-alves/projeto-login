@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/*
+
+Paleta de cores
+
+verde: #49a09d
+lilas: #5f2c82
+
+*/
+
+/*
+TAMANHO DAS TELAS
+
+PEQ: ATE MAX-WID.: 600PX
+CELULAR: MIN-WID 600PX A MAX-WID 768PX
+TABELT: 768PX A 992PX
+DESKTOP: 992PX A 1200PX
+GRANDES TELAS 
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    
+    section#login{
+        display: flex;
+        width: 700px;
+        height: 56%;
+    }
+
+    section#login > div#imagem{
+        width: 30%;
+        height: 100%;
+        background-position: center bottom;
+        
+    }
+
+    section#login > div#formulario{
+        width: 70%;
+        height: 100%;
+    }
+
+    div#formulario > h1{
+        
+        font-size: 1.7em;
+    }
+
+    div#formulario > p{
+        padding: 0px 30px;
+        font-size: 0.9em;
+    }
+    form > input[type=submit]{
+        margin: auto;
+        width: 60%;
+        margin-bottom: 5px;
+    }
+    form > a.botao{
+        margin: auto;
+        width: 60%;
+    }
+
+    form > div.campo{
+        display: block;
+        margin: auto;
+        width: 60%;
+        margin-bottom: 5px;
+    }
+
+}
+
+@media screen and (min-width: 990px) {
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    section#login{
+        display: flex;
+        width: 950px;
+        height: 56%;
+    }
+
+    section#login > div#imagem{
+        width: 50%;
+        height: 100%;
+        background-position: center bottom;
+        order: 2;
+    }
+
+    section#login > div#formulario{
+        width: 50%;
+        height: 100%;
+        order: 1;
+    }
+
+    div#formulario > h1{
+        font-size: 2em;
+    }
+
+    div#formulario > p{
+        padding: 0px 30px;
+        font-size: 1em;
+    }
+    form > input[type=submit]{
+        margin: auto;
+        width: 80%;
+        margin-bottom: 5px;
+    }
+    form > a.botao{
+        margin: auto;
+        width: 80%;
+    }
+    form > div.campo{
+        display: block;
+        margin: auto;
+        width: 80%;
+        margin-bottom: 5px;
+    }
+}
