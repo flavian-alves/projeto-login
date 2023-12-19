@@ -39,7 +39,7 @@ section#login{
     border-radius: 20px;
     background-color: white;
     width: 300px;
-    height: 520px;
+    height: 550px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
     transition: width .3s, heigth .3s; /*diz que ao mudar o tamanho da tela muda com uma leve animação*/

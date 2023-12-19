@@ -78,7 +78,7 @@ GRANDES TELAS
     section#login{
         display: flex;
         width: 950px;
-        height: 56%;
+        height: 60%;
     }
 
     section#login > div#imagem{
